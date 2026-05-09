@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <defs>
+    <style>
+      .axis-label { font-family: Arial, Helvetica, sans-serif; font-size: 11px; fill: #999999; letter-spacing: 1.5px; text-transform: uppercase; }
+      .axis-label-dim { font-family: Arial, Helvetica, sans-serif; font-size: 11px; fill: #555555; letter-spacing: 1.5px; text-transform: uppercase; }
+      .quad-title { font-family: Georgia, 'Times New Roman', serif; font-size: 16px; font-weight: bold; }
+      .quad-emoji { font-size: 24px; }
+      .quad-desc { font-family: Arial, Helvetica, sans-serif; font-size: 12px; fill: #999999; font-style: italic; }
+      .quad-motto { font-family: Arial, Helvetica, sans-serif; font-size: 11px; fill: #999999; }
+    </style>
+  </defs>
+
+  <!-- Background — dark, matches GitHub dark mode -->
+  <rect width="720" height="480" fill="#0d1117" rx="12"/>
+
+  <!-- Center cross lines — subtle -->
+  <line x1="360" y1="50" x2="360" y2="430" stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="90" y1="240" x2="630" y2="240" stroke="#30363d" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Axis arrows -->
+  <polygon points="356,44 360,34 364,44" fill="#30363d"/>
+  <polygon points="634,236 644,240 634,244" fill="#30363d"/>
+
+  <!-- Axis labels -->
+  <text x="360" y="24" text-anchor="middle" class="axis-label">Achievement</text>
+  <text x="674" y="244" text-anchor="middle" class="axis-label">Meaning</text>
+  <text x="46" y="244" text-anchor="middle" class="axis-label-dim">Low</text>
+  <text x="360" y="458" text-anchor="middle" class="axis-label-dim">Low</text>
+
+  <!-- ===== Top-Left: Hollow Victory ===== -->
+  <rect x="100" y="55" width="250" height="175" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="225" y="100" text-anchor="middle" class="quad-emoji">🐹</text>
+  <text x="225" y="126" text-anchor="middle" class="quad-title" fill="#FFFFFF">Hollow Victory</text>
+  <text x="225" y="148" text-anchor="middle" class="quad-desc">High Achievement × Low Meaning</text>
+  <line x1="200" y1="158" x2="250" y2="158" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="225" y="178" text-anchor="middle" class="quad-motto">"Run faster, feel less."</text>
+  <text x="225" y="198" text-anchor="middle" class="quad-motto">Automate the grind.</text>
+
+  <!-- ===== Top-Right: Purposeful Impact ===== -->
+  <rect x="370" y="55" width="250" height="175" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="495" y="100" text-anchor="middle" class="quad-emoji">🚀</text>
+  <text x="495" y="126" text-anchor="middle" class="quad-title" fill="#FFFFFF">Purposeful Impact</text>
+  <text x="495" y="148" text-anchor="middle" class="quad-desc">High Achievement × High Meaning</text>
+  <line x1="470" y1="158" x2="520" y2="158" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="495" y="178" text-anchor="middle" class="quad-motto">"Build what matters."</text>
+  <text x="495" y="198" text-anchor="middle" class="quad-motto">The north star.</text>
+
+  <!-- ===== Bottom-Left: The Drift ===== -->
+  <rect x="100" y="250" width="250" height="175" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="225" y="295" text-anchor="middle" class="quad-emoji">⚓</text>
+  <text x="225" y="321" text-anchor="middle" class="quad-title" fill="#8b949e">The Drift</text>
+  <text x="225" y="343" text-anchor="middle" class="quad-desc">Low Achievement × Low Meaning</text>
+  <line x1="200" y1="353" x2="250" y2="353" stroke="#30363d" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="225" y="373" text-anchor="middle" class="quad-motto">"Lost at sea."</text>
+  <text x="225" y="393" text-anchor="middle" class="quad-motto">Find your compass.</text>
+
+  <!-- ===== Bottom-Right: Quiet Contentment ===== -->
+  <rect x="370" y="250" width="250" height="175" rx="8" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+  <text x="495" y="295" text-anchor="middle" class="quad-emoji">🕯️</text>
+  <text x="495" y="321" text-anchor="middle" class="quad-title" fill="#8b949e">Quiet Contentment</text>
+  <text x="495" y="343" text-anchor="middle" class="quad-desc">Low Achievement × High Meaning</text>
+  <line x1="470" y1="353" x2="520" y2="353" stroke="#30363d" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="495" y="373" text-anchor="middle" class="quad-motto">"Simple riches."</text>
+  <text x="495" y="393" text-anchor="middle" class="quad-motto">The life around the work.</text>
+</svg>

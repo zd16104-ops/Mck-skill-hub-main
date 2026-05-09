@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 120">
+  <defs>
+    <style>
+      .title { font-family: Georgia, 'Times New Roman', serif; font-size: 48px; font-weight: bold; fill: #FFFFFF; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill: #999999; letter-spacing: 2.5px; text-transform: uppercase; }
+    </style>
+  </defs>
+
+  <!-- Coffee cup icon — white for dark mode -->
+  <g transform="translate(6, 16)">
+    <!-- Cup body -->
+    <path d="M8,30 L8,68 Q8,80 20,80 L48,80 Q60,80 60,68 L60,30 Z" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Cup handle -->
+    <path d="M60,38 Q74,38 74,52 Q74,66 60,66" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Steam lines -->
+    <path d="M22,24 Q25,16 22,8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+    <path d="M34,22 Q37,12 34,2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M46,24 Q49,16 46,8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+
+    <!-- "2AM" text on the cup -->
+    <text x="34" y="62" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">2AM</text>
+  </g>
+
+  <!-- Title text — white -->
+  <text x="100" y="58" class="title">Mck Skill Hub</text>
+
+  <!-- Accent line — white -->
+  <rect x="100" y="68" width="120" height="2.5" rx="1.25" fill="#FFFFFF"/>
+
+  <!-- Subtitle — light gray -->
+  <text x="100" y="95" class="subtitle">Professional AI skills for knowledge workers</text>
+</svg>
